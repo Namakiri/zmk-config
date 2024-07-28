@@ -64,7 +64,7 @@
             bindings = <
 &none   &rgb_ug RGB_EFR                    &rgb_ug RGB_BRI  &rgb_ug RGB_TOG  &bl BL_CYCLE  &bl BL_TOG    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &rgb_ug RGB_COLOR_HSB(256,100,54)  &rgb_ug RGB_BRD  &rgb_ug RGB_HUI  &bl BL_ON     &bl BL_INC    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                             &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &bl BL_OFF    &bl BL_DEC    &trans  &trans  &trans  &trans  &trans  &trans
+&kp G   &trans                             &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &bl BL_OFF    &bl BL_DEC    &trans  &trans  &trans  &trans  &trans  &trans
                                                             &trans           &trans        &trans        &trans  &trans  &trans
             >;
         };
